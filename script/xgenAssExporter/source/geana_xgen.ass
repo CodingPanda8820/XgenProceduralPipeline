@@ -1,0 +1,789 @@
+### exported: Wed Jan 25 16:38:43 2023
+### from:     Arnold 7.1.4.1 [c989b21f] windows x86_64 clang-10.0.1 oiio-2.4.1 osl-1.12.0 vdb-7.1.1 adlsdk-7.4.2.47 clmhub-3.1.1.43 rlm-14.2.5 optix-6.6.0 2022/11/29 11:29:06
+### host app: MtoA 5.2.2.1 71c4d483 (fix-5.2.2) Maya 2020
+### bounds: 0 0 0 0 0 0
+### user: CodingPanda
+### render_layer: defaultRenderLayer
+### scene: D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01.mb
+### meters_per_unit: 0.010000
+
+
+
+xgen_procedural
+{
+ name /geana_coll/base_desc/base_descShape
+ visibility 255
+ matrix 1 2 b85MATRIX
+y!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(yy!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(y
+ motion_start -0.25
+ motion_end 0.25
+ id 2450794702
+ data "-debug 1 -warning 1 -stats 1  -frame 950.000000  -file D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.xgen -palette geana_coll -geom D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.abc -patch geana_body_groom -description base_desc -fps 23.976025  -interpolation linear  -motionSamplesLookup 0.0  -motionSamplesPlacement 0.0  -world 1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1"
+ declare dcc_name constant STRING
+ dcc_name "base_descShape"
+ declare xgen_shader constant ARRAY NODE
+ xgen_shader "geana_hair_base_SHD"
+ declare irRenderCam constant STRING
+ irRenderCam "false,63.714455,30.019379,76.856667"
+ declare irRenderCamFOV constant STRING
+ irRenderCamFOV "54.432224,36.288151"
+ declare irRenderCamXform constant STRING
+ irRenderCamXform "0.759271,-0.078614,0.646008,0.000000,0.000000,0.992677,0.120801,0.000000,-0.650774,-0.091721,0.753711,0.000000,1.639781,-17.741293,-102.714165,1.000000"
+ declare irRenderCamRatio constant STRING
+ irRenderCamRatio "1.500000"
+ declare xgen_renderMethod constant STRING
+ xgen_renderMethod "1"
+ declare ai_mode constant INT
+ ai_mode 0
+ declare ai_min_pixel_width constant FLOAT
+ ai_min_pixel_width 0
+ declare xgen_multithreading constant BOOL
+ xgen_multithreading off
+}
+
+xgen_procedural
+{
+ name /geana_coll/long_desc/long_descShape
+ visibility 255
+ matrix 1 2 b85MATRIX
+y!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(yy!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(y
+ motion_start -0.25
+ motion_end 0.25
+ id 3006587233
+ data "-debug 1 -warning 1 -stats 1  -frame 950.000000  -file D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.xgen -palette geana_coll -geom D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.abc -patch geana_body_groom -description long_desc -fps 23.976025  -interpolation linear  -motionSamplesLookup 0.0  -motionSamplesPlacement 0.0  -world 1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1"
+ declare dcc_name constant STRING
+ dcc_name "long_descShape"
+ declare xgen_shader constant ARRAY NODE
+ xgen_shader "geana_hair_long_SHD"
+ declare irRenderCam constant STRING
+ irRenderCam "false,63.714455,30.019379,76.856667"
+ declare irRenderCamFOV constant STRING
+ irRenderCamFOV "54.432224,36.288151"
+ declare irRenderCamXform constant STRING
+ irRenderCamXform "0.759271,-0.078614,0.646008,0.000000,0.000000,0.992677,0.120801,0.000000,-0.650774,-0.091721,0.753711,0.000000,1.639781,-17.741293,-102.714165,1.000000"
+ declare irRenderCamRatio constant STRING
+ irRenderCamRatio "1.500000"
+ declare xgen_renderMethod constant STRING
+ xgen_renderMethod "1"
+ declare ai_mode constant INT
+ ai_mode 0
+ declare ai_min_pixel_width constant FLOAT
+ ai_min_pixel_width 0
+ declare xgen_multithreading constant BOOL
+ xgen_multithreading off
+}
+
+xgen_procedural
+{
+ name /geana_coll/leg_base_desc/leg_base_descShape
+ visibility 255
+ matrix 1 2 b85MATRIX
+y!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(yy!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(y
+ motion_start -0.25
+ motion_end 0.25
+ id 3198185701
+ data "-debug 1 -warning 1 -stats 1  -frame 950.000000  -file D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.xgen -palette geana_coll -geom D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.abc -patch geana_body_groom -description leg_base_desc -fps 23.976025  -interpolation linear  -motionSamplesLookup 0.0  -motionSamplesPlacement 0.0  -world 1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1"
+ declare dcc_name constant STRING
+ dcc_name "leg_base_descShape"
+ declare xgen_shader constant ARRAY NODE
+ xgen_shader "geana_hair_leg_SHD"
+ declare irRenderCam constant STRING
+ irRenderCam "false,63.714455,30.019379,76.856667"
+ declare irRenderCamFOV constant STRING
+ irRenderCamFOV "54.432224,36.288151"
+ declare irRenderCamXform constant STRING
+ irRenderCamXform "0.759271,-0.078614,0.646008,0.000000,0.000000,0.992677,0.120801,0.000000,-0.650774,-0.091721,0.753711,0.000000,1.639781,-17.741293,-102.714165,1.000000"
+ declare irRenderCamRatio constant STRING
+ irRenderCamRatio "1.500000"
+ declare xgen_renderMethod constant STRING
+ xgen_renderMethod "1"
+ declare ai_mode constant INT
+ ai_mode 0
+ declare ai_min_pixel_width constant FLOAT
+ ai_min_pixel_width 0
+ declare xgen_multithreading constant BOOL
+ xgen_multithreading off
+}
+
+xgen_procedural
+{
+ name /geana_coll/tail_base_desc/tail_base_descShape
+ visibility 255
+ matrix 1 2 b85MATRIX
+y!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(yy!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(y
+ motion_start -0.25
+ motion_end 0.25
+ id 54271793
+ data "-debug 1 -warning 1 -stats 1  -frame 950.000000  -file D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.xgen -palette geana_coll -geom D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.abc -patch geana_body_groom -description tail_base_desc -fps 23.976025  -interpolation linear  -motionSamplesLookup 0.0  -motionSamplesPlacement 0.0  -world 1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1"
+ declare dcc_name constant STRING
+ dcc_name "tail_base_descShape"
+ declare xgen_shader constant ARRAY NODE
+ xgen_shader "geana_hair_base_SHD"
+ declare irRenderCam constant STRING
+ irRenderCam "false,63.714455,30.019379,76.856667"
+ declare irRenderCamFOV constant STRING
+ irRenderCamFOV "54.432224,36.288151"
+ declare irRenderCamXform constant STRING
+ irRenderCamXform "0.759271,-0.078614,0.646008,0.000000,0.000000,0.992677,0.120801,0.000000,-0.650774,-0.091721,0.753711,0.000000,1.639781,-17.741293,-102.714165,1.000000"
+ declare irRenderCamRatio constant STRING
+ irRenderCamRatio "1.500000"
+ declare xgen_renderMethod constant STRING
+ xgen_renderMethod "1"
+ declare ai_mode constant INT
+ ai_mode 0
+ declare ai_min_pixel_width constant FLOAT
+ ai_min_pixel_width 0
+ declare xgen_multithreading constant BOOL
+ xgen_multithreading off
+}
+
+xgen_procedural
+{
+ name /geana_coll/face_base_desc/face_base_descShape
+ visibility 255
+ matrix 1 2 b85MATRIX
+y!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(yy!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(y
+ motion_start -0.25
+ motion_end 0.25
+ id 3613948074
+ data "-debug 1 -warning 1 -stats 1  -frame 950.000000  -file D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.xgen -palette geana_coll -geom D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.abc -patch geana_body_groom -description face_base_desc -fps 23.976025  -interpolation linear  -motionSamplesLookup 0.0  -motionSamplesPlacement 0.0  -world 1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1"
+ declare dcc_name constant STRING
+ dcc_name "face_base_descShape"
+ declare xgen_shader constant ARRAY NODE
+ xgen_shader "geana_hair_face_SHD"
+ declare irRenderCam constant STRING
+ irRenderCam "false,63.714455,30.019379,76.856667"
+ declare irRenderCamFOV constant STRING
+ irRenderCamFOV "54.432224,36.288151"
+ declare irRenderCamXform constant STRING
+ irRenderCamXform "0.759271,-0.078614,0.646008,0.000000,0.000000,0.992677,0.120801,0.000000,-0.650774,-0.091721,0.753711,0.000000,1.639781,-17.741293,-102.714165,1.000000"
+ declare irRenderCamRatio constant STRING
+ irRenderCamRatio "1.500000"
+ declare xgen_renderMethod constant STRING
+ xgen_renderMethod "1"
+ declare ai_mode constant INT
+ ai_mode 0
+ declare ai_min_pixel_width constant FLOAT
+ ai_min_pixel_width 0
+ declare xgen_multithreading constant BOOL
+ xgen_multithreading off
+}
+
+xgen_procedural
+{
+ name /geana_coll/face_foreHead_desc/face_foreHead_descShape
+ visibility 255
+ matrix 1 2 b85MATRIX
+y!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(yy!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(y
+ motion_start -0.25
+ motion_end 0.25
+ id 2948199549
+ data "-debug 1 -warning 1 -stats 1  -frame 950.000000  -file D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.xgen -palette geana_coll -geom D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.abc -patch geana_body_groom -description face_foreHead_desc -fps 23.976025  -interpolation linear  -motionSamplesLookup 0.0  -motionSamplesPlacement 0.0  -world 1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1"
+ declare dcc_name constant STRING
+ dcc_name "face_foreHead_descShape"
+ declare xgen_shader constant ARRAY NODE
+ xgen_shader "geana_hair_face_SHD"
+ declare irRenderCam constant STRING
+ irRenderCam "false,63.714455,30.019379,76.856667"
+ declare irRenderCamFOV constant STRING
+ irRenderCamFOV "54.432224,36.288151"
+ declare irRenderCamXform constant STRING
+ irRenderCamXform "0.759271,-0.078614,0.646008,0.000000,0.000000,0.992677,0.120801,0.000000,-0.650774,-0.091721,0.753711,0.000000,1.639781,-17.741293,-102.714165,1.000000"
+ declare irRenderCamRatio constant STRING
+ irRenderCamRatio "1.500000"
+ declare xgen_renderMethod constant STRING
+ xgen_renderMethod "1"
+ declare ai_mode constant INT
+ ai_mode 0
+ declare ai_min_pixel_width constant FLOAT
+ ai_min_pixel_width 0
+ declare xgen_multithreading constant BOOL
+ xgen_multithreading off
+}
+
+xgen_procedural
+{
+ name /geana_coll/ear_base_desc/ear_base_descShape
+ visibility 255
+ matrix 1 2 b85MATRIX
+y!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(yy!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(y
+ motion_start -0.25
+ motion_end 0.25
+ id 2067160638
+ data "-debug 1 -warning 1 -stats 1  -frame 950.000000  -file D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.xgen -palette geana_coll -geom D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.abc -patch geana_body_groom -description ear_base_desc -fps 23.976025  -interpolation linear  -motionSamplesLookup 0.0  -motionSamplesPlacement 0.0  -world 1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1"
+ declare dcc_name constant STRING
+ dcc_name "ear_base_descShape"
+ declare xgen_shader constant ARRAY NODE
+ xgen_shader "geana_hair_ear_base_SHD"
+ declare irRenderCam constant STRING
+ irRenderCam "false,63.714455,30.019379,76.856667"
+ declare irRenderCamFOV constant STRING
+ irRenderCamFOV "54.432224,36.288151"
+ declare irRenderCamXform constant STRING
+ irRenderCamXform "0.759271,-0.078614,0.646008,0.000000,0.000000,0.992677,0.120801,0.000000,-0.650774,-0.091721,0.753711,0.000000,1.639781,-17.741293,-102.714165,1.000000"
+ declare irRenderCamRatio constant STRING
+ irRenderCamRatio "1.500000"
+ declare xgen_renderMethod constant STRING
+ xgen_renderMethod "1"
+ declare ai_mode constant INT
+ ai_mode 0
+ declare ai_min_pixel_width constant FLOAT
+ ai_min_pixel_width 0
+ declare xgen_multithreading constant BOOL
+ xgen_multithreading off
+}
+
+xgen_procedural
+{
+ name /geana_coll/ear_long_desc/ear_long_descShape
+ visibility 255
+ matrix 1 2 b85MATRIX
+y!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(yy!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(y
+ motion_start -0.25
+ motion_end 0.25
+ id 4258799862
+ data "-debug 1 -warning 1 -stats 1  -frame 950.000000  -file D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.xgen -palette geana_coll -geom D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.abc -patch geana_body_groom -description ear_long_desc -fps 23.976025  -interpolation linear  -motionSamplesLookup 0.0  -motionSamplesPlacement 0.0  -world 1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1"
+ declare dcc_name constant STRING
+ dcc_name "ear_long_descShape"
+ declare xgen_shader constant ARRAY NODE
+ xgen_shader "geana_hair_ear_long_SHD"
+ declare irRenderCam constant STRING
+ irRenderCam "false,63.714455,30.019379,76.856667"
+ declare irRenderCamFOV constant STRING
+ irRenderCamFOV "54.432224,36.288151"
+ declare irRenderCamXform constant STRING
+ irRenderCamXform "0.759271,-0.078614,0.646008,0.000000,0.000000,0.992677,0.120801,0.000000,-0.650774,-0.091721,0.753711,0.000000,1.639781,-17.741293,-102.714165,1.000000"
+ declare irRenderCamRatio constant STRING
+ irRenderCamRatio "1.500000"
+ declare xgen_renderMethod constant STRING
+ xgen_renderMethod "1"
+ declare ai_mode constant INT
+ ai_mode 0
+ declare ai_min_pixel_width constant FLOAT
+ ai_min_pixel_width 0
+ declare xgen_multithreading constant BOOL
+ xgen_multithreading off
+}
+
+xgen_procedural
+{
+ name /geana_coll/ear_side_desc/ear_side_descShape
+ visibility 255
+ matrix 1 2 b85MATRIX
+y!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(yy!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(y
+ motion_start -0.25
+ motion_end 0.25
+ id 1420645158
+ data "-debug 1 -warning 1 -stats 1  -frame 950.000000  -file D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.xgen -palette geana_coll -geom D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.abc -patch geana_body_groom -description ear_side_desc -fps 23.976025  -interpolation linear  -motionSamplesLookup 0.0  -motionSamplesPlacement 0.0  -world 1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1"
+ declare dcc_name constant STRING
+ dcc_name "ear_side_descShape"
+ declare xgen_shader constant ARRAY NODE
+ xgen_shader "geana_hair_ear_base_SHD"
+ declare irRenderCam constant STRING
+ irRenderCam "false,63.714455,30.019379,76.856667"
+ declare irRenderCamFOV constant STRING
+ irRenderCamFOV "54.432224,36.288151"
+ declare irRenderCamXform constant STRING
+ irRenderCamXform "0.759271,-0.078614,0.646008,0.000000,0.000000,0.992677,0.120801,0.000000,-0.650774,-0.091721,0.753711,0.000000,1.639781,-17.741293,-102.714165,1.000000"
+ declare irRenderCamRatio constant STRING
+ irRenderCamRatio "1.500000"
+ declare xgen_renderMethod constant STRING
+ xgen_renderMethod "1"
+ declare ai_mode constant INT
+ ai_mode 0
+ declare ai_min_pixel_width constant FLOAT
+ ai_min_pixel_width 0
+ declare xgen_multithreading constant BOOL
+ xgen_multithreading off
+}
+
+xgen_procedural
+{
+ name /geana_coll/whiskers_desc/whiskers_descShape
+ visibility 255
+ matrix 1 2 b85MATRIX
+y!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(yy!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(y
+ motion_start -0.25
+ motion_end 0.25
+ id 678603002
+ data "-debug 1 -warning 1 -stats 1  -frame 950.000000  -file D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.xgen -palette geana_coll -geom D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.abc -patch geana_body_groom -description whiskers_desc -fps 23.976025  -interpolation linear  -motionSamplesLookup 0.0  -motionSamplesPlacement 0.0  -world 1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1"
+ declare dcc_name constant STRING
+ dcc_name "whiskers_descShape"
+ declare xgen_shader constant ARRAY NODE
+ xgen_shader "geana_hair_whiskers_SHD"
+ declare irRenderCam constant STRING
+ irRenderCam "false,63.714455,30.019379,76.856667"
+ declare irRenderCamFOV constant STRING
+ irRenderCamFOV "54.432224,36.288151"
+ declare irRenderCamXform constant STRING
+ irRenderCamXform "0.759271,-0.078614,0.646008,0.000000,0.000000,0.992677,0.120801,0.000000,-0.650774,-0.091721,0.753711,0.000000,1.639781,-17.741293,-102.714165,1.000000"
+ declare irRenderCamRatio constant STRING
+ irRenderCamRatio "1.500000"
+ declare xgen_renderMethod constant STRING
+ xgen_renderMethod "1"
+ declare ai_mode constant INT
+ ai_mode 0
+ declare ai_min_pixel_width constant FLOAT
+ ai_min_pixel_width 0
+ declare xgen_multithreading constant BOOL
+ xgen_multithreading off
+}
+
+xgen_procedural
+{
+ name /geana_coll/upperWhiskers_desc/upperWhiskers_descShape
+ visibility 255
+ matrix 1 2 b85MATRIX
+y!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(yy!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(y
+ motion_start -0.25
+ motion_end 0.25
+ id 321500815
+ data "-debug 1 -warning 1 -stats 1  -frame 950.000000  -file D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.xgen -palette geana_coll -geom D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.abc -patch geana_body_groom -description upperWhiskers_desc -fps 23.976025  -interpolation linear  -motionSamplesLookup 0.0  -motionSamplesPlacement 0.0  -world 1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1"
+ declare dcc_name constant STRING
+ dcc_name "upperWhiskers_descShape"
+ declare xgen_shader constant ARRAY NODE
+ xgen_shader "geana_hair_upperWhiskers_SHD"
+ declare irRenderCam constant STRING
+ irRenderCam "false,63.714455,30.019379,76.856667"
+ declare irRenderCamFOV constant STRING
+ irRenderCamFOV "54.432224,36.288151"
+ declare irRenderCamXform constant STRING
+ irRenderCamXform "0.759271,-0.078614,0.646008,0.000000,0.000000,0.992677,0.120801,0.000000,-0.650774,-0.091721,0.753711,0.000000,1.639781,-17.741293,-102.714165,1.000000"
+ declare irRenderCamRatio constant STRING
+ irRenderCamRatio "1.500000"
+ declare xgen_renderMethod constant STRING
+ xgen_renderMethod "1"
+ declare ai_mode constant INT
+ ai_mode 0
+ declare ai_min_pixel_width constant FLOAT
+ ai_min_pixel_width 0
+ declare xgen_multithreading constant BOOL
+ xgen_multithreading off
+}
+
+xgen_procedural
+{
+ name /geana_coll/belly_desc/belly_descShape
+ visibility 255
+ matrix 1 2 b85MATRIX
+y!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(yy!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(y
+ motion_start -0.25
+ motion_end 0.25
+ id 744646525
+ data "-debug 1 -warning 1 -stats 1  -frame 950.000000  -file D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.xgen -palette geana_coll -geom D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.abc -patch geana_body_groom -description belly_desc -fps 23.976025  -interpolation linear  -motionSamplesLookup 0.0  -motionSamplesPlacement 0.0  -world 1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1"
+ declare dcc_name constant STRING
+ dcc_name "belly_descShape"
+ declare xgen_shader constant ARRAY NODE
+ xgen_shader "geana_hair_belly_SHD"
+ declare irRenderCam constant STRING
+ irRenderCam "false,63.714455,30.019379,76.856667"
+ declare irRenderCamFOV constant STRING
+ irRenderCamFOV "54.432224,36.288151"
+ declare irRenderCamXform constant STRING
+ irRenderCamXform "0.759271,-0.078614,0.646008,0.000000,0.000000,0.992677,0.120801,0.000000,-0.650774,-0.091721,0.753711,0.000000,1.639781,-17.741293,-102.714165,1.000000"
+ declare irRenderCamRatio constant STRING
+ irRenderCamRatio "1.500000"
+ declare xgen_renderMethod constant STRING
+ xgen_renderMethod "1"
+ declare ai_mode constant INT
+ ai_mode 0
+ declare ai_min_pixel_width constant FLOAT
+ ai_min_pixel_width 0
+ declare xgen_multithreading constant BOOL
+ xgen_multithreading off
+}
+
+xgen_procedural
+{
+ name /geana_coll/nose_desc/nose_descShape
+ visibility 255
+ matrix 1 2 b85MATRIX
+y!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(yy!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(y
+ motion_start -0.25
+ motion_end 0.25
+ id 468023056
+ data "-debug 1 -warning 1 -stats 1  -frame 950.000000  -file D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.xgen -palette geana_coll -geom D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.abc -patch geana_body_groom -description nose_desc -fps 23.976025  -interpolation linear  -motionSamplesLookup 0.0  -motionSamplesPlacement 0.0  -world 1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1"
+ declare dcc_name constant STRING
+ dcc_name "nose_descShape"
+ declare xgen_shader constant ARRAY NODE
+ xgen_shader "geana_hair_nose_SHD"
+ declare irRenderCam constant STRING
+ irRenderCam "false,63.714455,30.019379,76.856667"
+ declare irRenderCamFOV constant STRING
+ irRenderCamFOV "54.432224,36.288151"
+ declare irRenderCamXform constant STRING
+ irRenderCamXform "0.759271,-0.078614,0.646008,0.000000,0.000000,0.992677,0.120801,0.000000,-0.650774,-0.091721,0.753711,0.000000,1.639781,-17.741293,-102.714165,1.000000"
+ declare irRenderCamRatio constant STRING
+ irRenderCamRatio "1.500000"
+ declare xgen_renderMethod constant STRING
+ xgen_renderMethod "1"
+ declare ai_mode constant INT
+ ai_mode 0
+ declare ai_min_pixel_width constant FLOAT
+ ai_min_pixel_width 0
+ declare xgen_multithreading constant BOOL
+ xgen_multithreading off
+}
+
+xgen_procedural
+{
+ name /geana_coll/eyelash_desc/eyelash_descShape
+ visibility 255
+ matrix 1 2 b85MATRIX
+y!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(yy!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(y
+ motion_start -0.25
+ motion_end 0.25
+ id 3837774714
+ data "-debug 1 -warning 1 -stats 1  -frame 950.000000  -file D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.xgen -palette geana_coll -geom D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.abc -patch geana_body_groom -description eyelash_desc -fps 23.976025  -interpolation linear  -motionSamplesLookup 0.0  -motionSamplesPlacement 0.0  -world 1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1"
+ declare dcc_name constant STRING
+ dcc_name "eyelash_descShape"
+ declare xgen_shader constant ARRAY NODE
+ xgen_shader "geana_hair_eyelash_SHD"
+ declare irRenderCam constant STRING
+ irRenderCam "false,63.714455,30.019379,76.856667"
+ declare irRenderCamFOV constant STRING
+ irRenderCamFOV "54.432224,36.288151"
+ declare irRenderCamXform constant STRING
+ irRenderCamXform "0.759271,-0.078614,0.646008,0.000000,0.000000,0.992677,0.120801,0.000000,-0.650774,-0.091721,0.753711,0.000000,1.639781,-17.741293,-102.714165,1.000000"
+ declare irRenderCamRatio constant STRING
+ irRenderCamRatio "1.500000"
+ declare xgen_renderMethod constant STRING
+ xgen_renderMethod "1"
+ declare ai_mode constant INT
+ ai_mode 0
+ declare ai_min_pixel_width constant FLOAT
+ ai_min_pixel_width 0
+ declare xgen_multithreading constant BOOL
+ xgen_multithreading off
+}
+
+xgen_procedural
+{
+ name /geana_coll/tail_long_desc/tail_long_descShape
+ visibility 255
+ matrix 1 2 b85MATRIX
+y!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(yy!$$$$$$$$$(y!$$$$$$$$$(y!$$$$$$$$$(y
+ motion_start -0.25
+ motion_end 0.25
+ id 2430273210
+ data "-debug 1 -warning 1 -stats 1  -frame 950.000000  -file D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.xgen -palette geana_coll -geom D:/CodingPanda_Outsourcing/VIVE/TDL/work/lookdev/scenes/geana_lookdev_v01__geana_coll.abc -patch geana_body_groom -description tail_long_desc -fps 23.976025  -interpolation linear  -motionSamplesLookup 0.0  -motionSamplesPlacement 0.0  -world 1;0;0;0;0;1;0;0;0;0;1;0;0;0;0;1"
+ declare dcc_name constant STRING
+ dcc_name "tail_long_descShape"
+ declare xgen_shader constant ARRAY NODE
+ xgen_shader "geana_hair_base_SHD"
+ declare irRenderCam constant STRING
+ irRenderCam "false,63.714455,30.019379,76.856667"
+ declare irRenderCamFOV constant STRING
+ irRenderCamFOV "54.432224,36.288151"
+ declare irRenderCamXform constant STRING
+ irRenderCamXform "0.759271,-0.078614,0.646008,0.000000,0.000000,0.992677,0.120801,0.000000,-0.650774,-0.091721,0.753711,0.000000,1.639781,-17.741293,-102.714165,1.000000"
+ declare irRenderCamRatio constant STRING
+ irRenderCamRatio "1.500000"
+ declare xgen_renderMethod constant STRING
+ xgen_renderMethod "1"
+ declare ai_mode constant INT
+ ai_mode 0
+ declare ai_min_pixel_width constant FLOAT
+ ai_min_pixel_width 0
+ declare xgen_multithreading constant BOOL
+ xgen_multithreading off
+}
+
+standard_hair
+{
+ name geana_hair_base_SHD
+ base_color geana_hair_base_ramp1
+ melanin 0
+}
+
+ramp_rgb
+{
+ name geana_hair_base_ramp1
+ type "v"
+ position 3 1 FLOAT
+0.544891655 1 0
+ color 3 1 b85RGB
+!$$$$$$$$$-
+ color[0] gammaCorrect12
+ color[1] gammaCorrect14
+ color[2] gammaCorrect13
+ interpolation 3 1 INT
+6 6 6
+ uvset ""
+ use_implicit_uvs "curves_only"
+ wrap_uvs on
+}
+
+pow
+{
+ name gammaCorrect12
+ base aiUserDataColor_base_mid
+ exponent 1.66666663 1.66666663 1.66666663
+}
+
+user_data_rgba
+{
+ name aiUserDataColor_base_mid
+ attribute "base_mid"
+}
+
+pow
+{
+ name gammaCorrect14
+ base aiUserDataColor_base_tip
+ exponent 1.66666663 1.66666663 1.66666663
+}
+
+user_data_rgba
+{
+ name aiUserDataColor_base_tip
+ attribute "base_tip"
+}
+
+pow
+{
+ name gammaCorrect13
+ base aiUserDataColor_base_root
+ exponent 1.66666663 1.66666663 1.66666663
+}
+
+user_data_rgba
+{
+ name aiUserDataColor_base_root
+ attribute "base_root"
+}
+
+standard_hair
+{
+ name geana_hair_leg_SHD
+ base_color geana_hair_leg_ramp1
+ melanin 0
+ roughness 0.800000012
+}
+
+ramp_rgb
+{
+ name geana_hair_leg_ramp1
+ type "v"
+ position 3 1 FLOAT
+0 1 0.535603702
+ color 3 1 b85RGB
+!$$$$$$$$$-
+ color[0] gammaCorrect14
+ color[1] gammaCorrect12
+ color[2] gammaCorrect13
+ interpolation 3 1 INT
+1 1 1
+ uvset ""
+ use_implicit_uvs "curves_only"
+ wrap_uvs on
+}
+
+standard_hair
+{
+ name geana_hair_long_SHD
+ base_color geana_hair_long_ramp1
+ melanin 0
+ roughness 0.600000024
+}
+
+ramp_rgb
+{
+ name geana_hair_long_ramp1
+ type "v"
+ position 0
+ color 0 0 0
+ color[0] gammaCorrect13
+ interpolation 1
+ uvset ""
+ use_implicit_uvs "curves_only"
+ wrap_uvs on
+}
+
+standard_hair
+{
+ name geana_hair_nose_SHD
+ base_color geana_hair_eyelash_ramp
+ melanin 0
+ roughness 0.850000024
+}
+
+ramp_rgb
+{
+ name geana_hair_eyelash_ramp
+ type "v"
+ position 2 1 FLOAT
+0.476780176 1
+ color 2 1 RGB
+0 0 0 1.16610003 0.955799997 0.736500025
+ color[0] gammaCorrect9
+ interpolation 2 1 INT
+6 6
+ uvset ""
+ use_implicit_uvs "curves_only"
+ wrap_uvs on
+}
+
+pow
+{
+ name gammaCorrect9
+ base aiUserDataColor_face_base_mid
+ exponent 1.66666663 1.66666663 1.66666663
+}
+
+user_data_rgba
+{
+ name aiUserDataColor_face_base_mid
+ attribute "face_base_mid"
+}
+
+standard_hair
+{
+ name geana_hair_face_SHD
+ base_color geana_hair_face_ramp1
+ melanin 0
+ roughness 0.800000012
+}
+
+ramp_rgb
+{
+ name geana_hair_face_ramp1
+ type "v"
+ position 4 1 FLOAT
+0.495356023 0.0438695177 0.365325063 0.841791034
+ color 4 1 b85RGB
+!$$$$$$$$$0
+ color[0] gammaCorrect9
+ color[1] gammaCorrect11
+ color[2] gammaCorrect9
+ color[3] gammaCorrect10
+ interpolation 4 1 INT
+6 6 6 6
+ uvset ""
+ use_implicit_uvs "curves_only"
+ wrap_uvs on
+}
+
+pow
+{
+ name gammaCorrect11
+ base aiUserDataColor_face_base_root
+ exponent 1.66666663 1.66666663 1.66666663
+}
+
+user_data_rgba
+{
+ name aiUserDataColor_face_base_root
+ attribute "face_base_root"
+}
+
+pow
+{
+ name gammaCorrect10
+ base aiUserDataColor_face_base_tip
+ exponent 1.66666663 1.66666663 1.66666663
+}
+
+user_data_rgba
+{
+ name aiUserDataColor_face_base_tip
+ attribute "face_base_tip"
+}
+
+standard_hair
+{
+ name geana_hair_ear_base_SHD
+ base_color geana_hair_ear_ramp1
+ melanin 0
+ roughness 0.850000024
+}
+
+ramp_rgb
+{
+ name geana_hair_ear_ramp1
+ type "v"
+ position 4 1 FLOAT
+0.730650127 1 0 0.396284819
+ color 4 1 b85RGB
+!$$$$$$$$$0
+ color[0] gammaCorrect9
+ color[1] gammaCorrect10
+ color[2] gammaCorrect11
+ color[3] gammaCorrect9
+ interpolation 4 1 INT
+8 8 8 8
+ uvset ""
+ use_implicit_uvs "curves_only"
+ wrap_uvs on
+}
+
+standard_hair
+{
+ name geana_hair_ear_long_SHD
+ base_color geana_hair_ear_long_ramp1
+ melanin 0
+ roughness 0.800000012
+}
+
+ramp_rgb
+{
+ name geana_hair_ear_long_ramp1
+ type "v"
+ position 2 1 FLOAT
+0.725373149 1
+ color 2 1 RGB
+0 0 0 0.374698341 0.264827013 0.148586541
+ color[0] gammaCorrect9
+ interpolation 2 1 INT
+6 6
+ uvset ""
+ use_implicit_uvs "curves_only"
+ wrap_uvs on
+}
+
+standard_hair
+{
+ name geana_hair_whiskers_SHD
+ melanin 0
+ roughness 0.800000012
+}
+
+standard_hair
+{
+ name geana_hair_upperWhiskers_SHD
+ base_color geana_hair_upperWhiskers_ramp1
+ melanin 0
+ roughness 0.800000012
+}
+
+ramp_rgb
+{
+ name geana_hair_upperWhiskers_ramp1
+ type "v"
+ position 2 1 FLOAT
+0.811940312 0
+ color 2 1 RGB
+0.0976999998 0.0878999978 0.0666999966 0.273000002 0.250999987 0.205300003
+ interpolation 2 1 INT
+6 6
+ uvset ""
+ use_implicit_uvs "curves_only"
+ wrap_uvs on
+}
+
+standard_hair
+{
+ name geana_hair_belly_SHD
+ base_color 0.60578531 0.469317555 0.397272825
+ melanin 0
+ roughness 0.800000012
+}
+
+standard_hair
+{
+ name geana_hair_eyelash_SHD
+ base_color geana_hair_eyelash_ramp
+ melanin 0
+ roughness 0.800000012
+}
+
